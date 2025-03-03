@@ -22,12 +22,18 @@ LightSandyConfigurator >> basePassiveBackgroundColor [
 { #category : 'colors' }
 LightSandyConfigurator >> lightBaseColor [
 	
-	"Principally use by calypso tabs."
+	"sand dark"
 	^ Color fromString: 'E2DCAD'
 ]
 
 { #category : 'colors' }
 LightSandyConfigurator >> lightSelectionColor [
-
+	"lavanda like"
 	^ (Color fromHexString: 'C8CEFF')
+]
+
+{ #category : 'colors' }
+LightSandyConfigurator >> mouseOverColor [
+
+	^ "pale cyan Color fromHexString: 'a0f0fd'" Color fromHexString: '95a1ff'
 ]
