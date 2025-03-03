@@ -9,7 +9,7 @@ Class {
 { #category : 'configuration' }
 LightSandyTheme class >> colorConfiguratorClass [
 
-	^ CzLightSandyConfigurator 
+	^ LightSandyConfigurator 
 ]
 
 { #category : 'initialization' }

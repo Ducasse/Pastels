@@ -20,13 +20,6 @@ LightSandyConfigurator >> basePassiveBackgroundColor [
 ]
 
 { #category : 'colors' }
-LightSandyConfigurator >> darkBaseColor [
-
-	^ "(Color fromHexString: 'E2DCAD')" "Color fromHexString: 'FFF6AF'" 
-		Color fromHexString: 'FFF7AF'. Color red
-]
-
-{ #category : 'colors' }
 LightSandyConfigurator >> lightBaseColor [
 	
 	"Principally use by calypso tabs."

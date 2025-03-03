@@ -1,5 +1,5 @@
 Class {
-	#name : 'CherryTheme',
+	#name : 'NaranTheme',
 	#superclass : 'PharoLightTheme',
 	#category : 'Pastels-Pale',
 	#package : 'Pastels',
@@ -7,13 +7,13 @@ Class {
 }
 
 { #category : 'configuration' }
-CherryTheme class >> colorConfiguratorClass [
+NaranTheme class >> colorConfiguratorClass [
 
-	^ CherryConfigurator 
+	^ NaranConfigurator 
 ]
 
 { #category : 'initialization' }
-CherryTheme class >> setPreferredShoutColors [
+NaranTheme class >> setPreferredShoutColors [
 	"self setPreferredShoutColors"
 
 	"Color can be a valid argument to Color class>>colorFrom: , or nil to
@@ -151,6 +151,6 @@ CherryTheme class >> setPreferredShoutColors [
 ]
 
 { #category : 'accessing' }
-CherryTheme class >> themeName [
-	^ 'Cherry'
+NaranTheme class >> themeName [
+	^ 'Naran'
 ]
