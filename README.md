@@ -12,6 +12,6 @@ Here are some nice and pastel color themes for Pharo.
 ```
 Metacello new
 	baseline: 'Pastels';
-	repository: 'github://pillar-markup/Pastel/src';
+	repository: 'github://Ducasse/Pastels/src';
 	load.
 ```
